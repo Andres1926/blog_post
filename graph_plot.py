@@ -101,9 +101,9 @@ for root,dirs,files in os.walk(inPath):
             options = {'node_color': 'blue','node_size': 20,'width': 0.5}
             plt.subplot(111)
             nx.draw(G,pos=pos, **options)
-            #nx.draw(G.subgraph(MDS_set), pos=pos, node_size = 12, node_color='orange')
+            nx.draw(G.subgraph(MDS_set), pos=pos, node_size = 12, node_color='orange')
             
-            plt.savefig(outPath+'/MDS_02'+name+'.pdf')
+            plt.savefig(outPath+'/MDS_'+name+'.pdf')
             #plt.show()
             #plt.close()
 
