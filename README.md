@@ -6,10 +6,7 @@ The MDS code here proposed employs the PULP library to solve the integer linear 
 
 The code is Python 3.X based. Require the following packages to run:
 
-NetworkX
-Pulp
-CSV
-Matplotlib
+NetworkX, Pulp, CSV, Matplotlib.
 
 ## Usage
 
